@@ -159,3 +159,9 @@ terraform.rc
 
 .vscode
 *.lock
+
+
+# Ignore dbt examples
+**/models/example/
+
+**/temp
