@@ -6,4 +6,4 @@
 -- DROP DATABASE IF EXISTS intro;
 
 -- Criar o banco de dados
-CREATE DATABASE intro;
+CREATE DATABASE study;

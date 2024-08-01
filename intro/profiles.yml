@@ -1,12 +1,12 @@
 intro:
   outputs:
     dev:
-      dbname: into
+      dbname: study
       host: localhost
-      pass: postgres_password
+      pass: pwd
       port: 5432
-      schema: intro_schema
+      schema: intro
       threads: 1
       type: postgres
-      user: postgres_user
+      user: postgres
   target: dev
