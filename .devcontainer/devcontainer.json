@@ -17,7 +17,7 @@
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "pip install --user -r requirements.txt",
-	// "postCreateCommand": "poetry install --no-root"
+	"postCreateCommand": "sudo sh .devcontainer/startup.sh; poetry install --no-root",
 	
 
 	// Configure tool-specific properties.
@@ -33,7 +33,8 @@
 				"ms-python.debugpy",
 				"innoverio.vscode-dbt-power-user",
 				"ckolkman.vscode-postgres",
-				"ms-azuretools.vscode-docker"
+				"ms-azuretools.vscode-docker",
+				"mechatroner.rainbow-csv"
 			],
 			"settings": {
 				"python.defaultInterpreterPath": ".venv/bin/python"
