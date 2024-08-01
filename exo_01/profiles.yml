@@ -5,7 +5,7 @@ intro:
       host: localhost
       pass: pwd
       port: 5432
-      schema: intro
+      schema: exo_01
       threads: 1
       type: postgres
       user: postgres

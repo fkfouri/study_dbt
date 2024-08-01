@@ -3,6 +3,8 @@
 Estou usando **Dev Container**.
 
 ```bash
+# Configura o Postgres
+sh .devcontainer/startup.sh
 
 #Start project
 dbt init
