@@ -1,5 +1,5 @@
 -- avg_num_dropoff_manhattan: Average number of passengers on all trips which end in Manhattan
--- média de passageiros em todas as corridas que terminam a viagem em Manhattan
+-- média de passageiros em todas as corridas que terminam a viagemem Manhattan
 
 {{ config(materialized='table') }}
 
