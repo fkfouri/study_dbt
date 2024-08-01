@@ -1,3 +1,3 @@
 # Exemplo 2
 
-Configurado para tabela modo Incremental
+Exemplo sobre cripto moedas, configurado para tabela modo Incremental.

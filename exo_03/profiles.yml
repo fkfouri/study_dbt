@@ -1,0 +1,12 @@
+exo_03:
+  outputs:
+    dev:
+      dbname: study
+      host: localhost
+      pass: pwd
+      port: 5432
+      schema: exo_03
+      threads: 1
+      type: postgres
+      user: postgres
+  target: dev
