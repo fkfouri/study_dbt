@@ -9,5 +9,5 @@ sh .devcontainer/startup.sh
 #Start project
 dbt init
 
-mv /home/vscode/.dbt/profiles.yml ./intro/profiles.yml
+mv /home/vscode/.dbt/profiles.yml ./exo_01/profiles.yml
 ```
