@@ -13,7 +13,9 @@ ENV POETRY_NO_INTERACTION=1 \
 RUN echo "Config virtualenvs" && \
     poetry config virtualenvs.in-project true 
 
-RUN apt-get update && apt-get install -y postgresql postgresql-contrib
+RUN apt-get update && apt-get install -y postgresql postgresql-contrib 
+
+RUN apt-get install -y sqlite3 nodejs npm
 
 # Instalar dependências do projeto
 # RUN poetry install --no-root  --no-interaction --no-ansi
